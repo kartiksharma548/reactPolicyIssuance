@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    margin: 20px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #231f20;
+    -webkit-print-color-adjust: exact;
+    -moz-print-color-adjust: exact;
+}
+
+p, h1, h2, h3, h4, h5, h6, h7, ul, li {
+    margin: 0px;
+    padding: 0px;
+}
+
+.p-0 {
+    padding: 0pt !important;
+}
+
+.ProposalPre ul, .ProposalPre li {
+    list-style: inside;
+}
+
+
+.clearfix {
+    clear: both;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+table, td {
+    page-break-inside: auto;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+tr {
+    page-break-inside: auto;
+    border-spacing: 0px;
+}
+
+.main-container {
+    width: 100%;
+    border: 2px solid #231f20;
+    box-sizing: border-box
+}
+
+.content-container {
+    padding: 0 5px;
+}
+
+.VehicleDetail, .companytable, .brokertable, .premiumCalc, .NomnieeTable {
+    font-size: 9pt;
+}
+
+.brokertable {
+    margin-bottom: 5pt;
+}
+
+.VehicleDetail td, .premiumCalc td, .companytable td, .NomnieeTable td {
+    padding: 2pt;
+}
+
+.maintext {
+    padding: 2pt 0;
+    font-size: 9pt;
+    font-weight: normal;
+}
+
+    .maintext label {
+        font-weight: normal;
+        font-size:9pt;
+    }
+
+        .maintext label input {
+            height: 8pt;
+            width: 8pt;
+        }
+
+.companyname {
+    font-size: 16pt;
+    font-weight: 600;
+}
+
+.PrivateCar {
+    font-size: 16pt;
+    font-weight: 600;
+    margin-top: 10pt;
+    float: left;
+}
+
+strong {
+    color: #000;
+}
+
+.premiumCalc1 {
+    border: 1px solid #000;
+    border-left: 0px none;
+}
+
+    .premiumCalc1 td {
+        border-left: 1px solid #000;
+    }
+
+    .premiumCalc1 td {
+        border-bottom: 0px none;
+    }
+
+.Notebdr {
+    border-top: 1px solid #000;
+}
+
+.VehicleDetail1 {
+    border: 1px solid #000;
+    border-left: 0px none;
+    border-bottom: 0px none;
+}
+
+    .VehicleDetail1 td {
+        border-bottom: 1px solid #000;
+        border-left: 1px solid #000;
+    }
+
+.bdrtop {
+    border-top: 1px solid #000;
+}
+
+.bdrbottom {
+    border-bottom: 1px solid #000;
+}
+
+.bdrleft {
+    border-left: 1px solid #000;
+}
+
+.bdrright {
+    border-right: 1px solid #000;
+}
+
+.nobdr {
+    border: 0px;
+}
+
+.bdrl0 {
+    border-left: 0px !important;
+}
+
+.bdrr0 {
+    border-right: 0px !important;
+}
+
+.bdrt0 {
+    border-top: 0px !important;
+}
+
+.bdrb0 {
+    border-bottom: 0px !important;
+}
+/* Font CSS */
+
+@media print {
+    * {
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+@media print {
+    body {
+        font-size: 8pt !important;
+        -webkit-print-color-adjust: exact;
+        -moz-print-color-adjust: exact;
+    }
+
+    table, td {
+        border-spacing: 0px;
+    }
+
+    table {
+        page-break-inside: auto;
+        border-collapse: separate;
+        margin: 0pt;
+        padding: 0px;
+        border-spacing: 0px;
+    }
+
+    tr {
+        page-break-inside: auto;
+        border-spacing: 0px;
+    }
+
+    .VehicleDetail, .companytable, .brokertable, .premiumCalc, .NomnieeTable {
+        font-size: 7pt;
+        line-height: 6pt;
+    }
+
+        .VehicleDetail td, .premiumCalc td, .companytable td, .NomnieeTable td {
+            padding: 2pt;
+        }
+
+    .maintext, .brokertable {
+        font-size: 6pt;
+        line-height: 6pt;
+        padding: 2pt 0;
+    }
+        .maintext label {
+            font-weight: normal !important;
+            font-size: 6pt !important;
+        }
+    
+    .NomnieeTable {
+        margin-top: 2pt;
+    }
+
+    .companyname {
+        font-size: 8pt;
+        font-weight: 600;
+        line-height: 8pt
+    }
+
+    .PrivateCar {
+        font-size: 8pt;
+        font-weight: 600;
+        line-height: 8pt;
+        margin-top: 4pt;
+    }
+
+    .BrokerDetails p {
+        line-height: 9pt
+    }
+}
+
+@page {
+    size: auto; /* auto is the initial value */
+    margin: 0; /* this affects the margin in the printer settings */
+}

@@ -1,0 +1,24 @@
+type OrderModel_Type={
+     ProductID?: number;
+     ORDER_NO?: string;
+     Trans_Ids?: string;
+     TotalAmt?: number;
+     OrderType?: string;
+     TransactionType?: string;
+     UserID?: number;
+     MachineIP?: string;
+     DealerID?: number;
+     PGCODE?: string;
+     PG_Type?: string;
+     PRE_PAID_POLICY_NO?: string;
+     PRE_PAID_AMOUNT?: number;
+     Ref_Parent_Id?: number;
+     IsRefund?: number;
+     Payment_Type?: string;
+     ProposalId?: number;
+     ChassisNo?: string;
+     ICServiceEnabled?: number;
+     ConsentType?: number;
+     ProposalID?: string;
+     PaymentFor?: string;
+}

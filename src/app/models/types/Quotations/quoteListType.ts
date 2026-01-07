@@ -1,0 +1,69 @@
+export type SavedQuoteList = {
+    QUOTATION_NO?: string
+    BOOKING_ID?: string
+    CUSTOMERNAME?: string
+    FromSDate?: string
+    ToLDate?: string
+    CHASSIS_NO?: string
+    ENGINE_NO?: string
+    PROPOSAL_NO?: string
+    QuoteList?: SavedQuoteDetails[]
+    Count?: number
+    DealerId?: number
+    UserId?: number
+    Errorcode?: number
+    ErrorMessage?: string
+    ProductId?: number
+    Status?: string
+    KYC_Req_No?: string
+    Trans_TYPE?: string 
+}
+
+export type SavedQuoteDetails = {
+    Srno?: number
+    PROPOSAL_ID?: number
+    FKPOLICY_ID?: number
+    PROPOSAL_NO?: string
+    Proposal_Date?: string
+    POLICY_TYPE?: string
+    FKPRODUCT_ID?: number
+    PROPOSER_TYPE?: string
+    SALUTATION?: string
+    Name?: string
+    MOB_NO?: string
+    EMAIL?: string
+    CHASSIS_NO?: string
+    ENGINE_NO?: string
+    MMV?: string
+    QUOTATION_NO?: string
+    BOOKING_ID?: string
+    CUSTOMERNAME?: string
+    PRODUCT_NAME?: string
+    GROSS_PREM?: number
+    Trans_TYPE?: string
+    KYCSTATUS?: string
+    RESP_VISOF_KYC_REQ_NO?: string
+    RESP_KYC_REMARK?: string
+    RESP_KYC_PROCESSING_DATE?: string
+    RESP_FIRSTNAME?: string
+    RESP_DOB?: string
+    RESP_DOI?: string
+    RESP_MOBILENO?: string
+    RESP_EMAIL?: string
+    RESP_PROPOSERCKYC_NO?: string
+    IS_KYCStatus_APPLICABLE?: number
+    RESP_IC_KYC_NO?: string
+    RESP_KYC_STATUS?: number
+    EXPIREDPROPOSAL?: number
+    IS_OTP_VERIFIED?: boolean
+    QUOTE_STATUS?: number
+    QUOTE_UPDATE_ON?: string
+    POLICY_EFFECTIVE_DATE?: string
+    PROPOSAL_STAGE?: string
+    IC_PROPOSAL_NO?: string
+    Remarks?: string
+    QuoteStatus?: number
+    REG_NO?: string
+    ENDORSEMENT_NO?: string
+
+}
