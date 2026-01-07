@@ -1,0 +1,34 @@
+type ProposalPaymentPolicyType={
+    ProposalID?: number;
+  UserID?: number;
+  ProposalNo?: string;
+  ICProposalNo?: string;
+  ChassisNo?: string;
+  RegistrationNo?: string;
+  ProposalDate?: string;
+  ModelVariant?: string;
+  VariantName?: string;
+  ProposalType?: string;
+  ProposerName?: string;
+  PaymentMode?: string;
+  Premium?: number;
+  ChequeDate?: string;
+  ChequeNo?: string;
+  AccountNo?: string;
+  BankCity?: number;
+  BankCityName?: string;
+  DrawnOn?: string;
+  DealerCode?: string;
+  DealerID?: number;
+  PaymentModeCode?: string;
+  UpdatedPaymentModeCode?: string;
+  updatedPaymentMode?: string;
+  BankID?: number;
+  BankName?: string;
+  IsValid_Cheque_GuaranteeNo?: number;
+  ApprovalStatus?: number;
+  ProductId?: number;
+  OnlinePaymentMode?: string;
+  uploadfileCheque?: string;
+  HOSTIP?: string;
+}
